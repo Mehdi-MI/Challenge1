@@ -1,139 +1,173 @@
 .button1{
-    background-color: #4caf50;
-    border-radius: 50px ;
-    color: rgb(255, 255, 255);
-    padding: 2px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    cursor: pointer;
+  background-color: #4caf50;
+  border-radius: 50px ;
+  color: rgb(255, 255, 255);
+  padding: 2px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 .button2{
-    background-color: #3b1cac;
-    border-radius: 50px ;
-    color: rgb(255, 255, 255);
-    padding: 2px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    cursor: pointer;
+  background-color: #3b1cac;
+  border-radius: 50px ;
+  color: rgb(255, 255, 255);
+  padding: 2px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 .image1{
-    position: absolute;
-    top: 12%;
-    left: 38%;
-  }
-  .principle{
-    position: absolute;
-    top: 40%;
-    left: 18%;
-    text-align: center;
-    align-items: center;
-  }
-.position1{
   position: absolute;
-  top: 57%;
-  left: 35%;
+  top: 12%;
+  left: 45%;
+}
+.principle{
+  position: absolute;
+  top: 40%;
+  left: 18%;
   text-align: center;
+  align-items: center;
+}
+.position1{
+position: absolute;
+top: 57%;
+left: 35%;
+text-align: center;
 
 }
 .h1{
-  position: absolute;
-  top: 40%;
-  left: 30%;
-  text-align: center;
-  transform: translate(-25%,170%); 
-  align-items: center;
+position: absolute;
+top: 40%;
+left: 30%;
+text-align: center;
+transform: translate(-25%,170%); 
+align-items: center;
 }
 .image2{
-  position: absolute;
-  top: 105%;
-  left: 15%;
+position: absolute;
+top: 105%;
+left: 15%;
 }
 .h2{
-  position: absolute;
-  top: 50%;
-  left: 60%;
-  transform: translate(-40%, 130%); 
-  align-items: center;
+position: absolute;
+top: 50%;
+left: 60%;
+transform: translate(-40%, 130%); 
+align-items: center;
 }
 .h3{
-  position: absolute;
-  top: 150%;
-  left: 28%;
-  text-align: center;
-  align-items: center;
+position: absolute;
+top: 150%;
+left: 28%;
+text-align: center;
+align-items: center;
 }
 .image3{
-  position: absolute;
-  top: 170%;
-  left: 30%;
-  align-items: center;
+position: absolute;
+top: 170%;
+left: 30%;
 }
 .h4{
-  position: absolute;
-  text-align: center;
-  top: 240%;
-  left: 35%;
+position: absolute;
+text-align: center;
+top: 240%;
+left: 35%;
 }
 .h5{
-  position: absolute;
-  text-align: center;
-  top: 260%;
-  left: 0%;
+position: absolute;
+text-align: center;
+top: 260%;
+left: 0%;
 }
 .h6{
-  position: absolute;
-  text-align: center;
-  top: 350%;
-  left: 20%;
+position: absolute;
+text-align: center;
+top: 350%;
+left: 20%;
 }
 .position2{
-  position: absolute;
-  text-align: center;
-  top: 365%;
-  left: 36%;
+position: absolute;
+text-align: center;
+top: 365%;
+left: 36%;
 }
 .button1:hover {
-  opacity: 0.8;
+opacity: 0.8;
 }
 .button2:hover {
-  opacity: 0.8;
+opacity: 0.8;
 }
 .icon{
-  position: absolute;
-  text-align: center;
-  top: 260%;
-  left: 50%;
+position: absolute;
+text-align: center;
+top: 260%;
+left: 50%;
 }
 .preview{
-  position: absolute;
-  text-align: center;
-  top: 300%;
-  left: 32%;
+position: absolute;
+text-align: center;
+top: 300%;
+left: 32%;
 }
 .google{
-  position: absolute;
-  top: 330%;
-  left: 30%;
+position: absolute;
+top: 330%;
+left: 30%;
 }
 .ibm{
-  position: absolute;
-  top: 330%;
-  left: 45%;
+position: absolute;
+top: 330%;
+left: 45%;
 }
 .microsoft{
-  position: absolute;
-  top: 328%;
-  left: 64%;
+position: absolute;
+top: 328%;
+left: 64%;
 }
 .icon1{
-  position: absolute;
-  align-items: baseline;
-  top: 380%;
-  left: 80%;
+position: absolute;
+align-items: baseline;
+top: 390%;
+left: 80%;
+word-spacing: 10px;
+}
+@media only screen and (max-width: 600px) {
+body {
+  background-color: lightblue;
+}
+}
+.icons{
+word-spacing: 30px;
+position: absolute;
+top: 330%;
+left: 25%;
+}
+.background2{
+position: absolute;
+top: 380%;
+}
+.logo2{
+position: absolute;
+top: 390%;
+left: 10%;
+}
+.box{
+position: absolute;
+word-spacing: 10%;
+top: 390%;
+left: 20%;
+word-spacing: 10;
+word-spacing: 10px;
+
+}
+.buttom5{
+background-color: transparent;
+border: none;
+opacity: 0.5;
 }
